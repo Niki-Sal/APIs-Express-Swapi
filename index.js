@@ -39,6 +39,7 @@ app.get("/",(req, res) =>{
 // })
 
 //with the swapi api
+
 app.get('/swapi/search', (req, res)=>{
     res.render('search')
 
